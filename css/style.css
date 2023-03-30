@@ -1,0 +1,24 @@
+:root{
+    --dark: #401b1b;
+    --dark-red: #72383d;
+    --dark-orange: #ab644b;
+    --dark-gray: #9cabb4;
+    --light-gray: #d2dce6;
+    --light: #f2f2eb;
+}
+
+body{
+    background-color: var(--dark-orange);
+    color: var(--dark);
+}
+
+#submitButton{
+    color: var(--light-gray);
+    background-color: var(--dark);
+    outline: none;
+    border-style: none; 
+}
+#task{
+    border-style: none;
+    background-color: var(--light);
+}
